@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Survey
+        </title>
+    </head>
+    <body><font face="Algerian" size="4px" color="#ff4000">
+        <h3>Enter your credentials to fill the form:</h3></font>
+        <form action="done.html"><font face="Gill Sans MT" size="4px" color="#8000ff">
+            <label for='email'>Email ID: </label><br><br>
+            <input type='email' name='email' required placeholder="anonymous@gmail.com"><br><br>
+            <label for='password'>Password: </label><br><br></font>
+            <input type="password" name='password' required id="password">
+            <br><br><hr>
+            <ol type="1"><font face="Agency FB" size="5px">
+                <font color="#ff0080"><li><label for='readperday'>How much time do you spend reading in a day?</label></li></font>
+            <input type='radio' id='one' name='time' value='one'><font color="#660000">More than 1 hour<br>
+            <input type='radio' id='two' name='time' value='two'> 30 minutes to 1 hour <br>
+            <input type='radio' id='three' name='time' value='three'> Less than 30 minutes<br>
+            <input type='radio' id='four' name='time' value='four'> I don't read unless it's necessary <br><br></font>
+            <font color="#ff0080"><li><label for='genre'> Which genres do you enjoy?</label></li></font>
+            <input type="checkbox" id='one' name='one' value='one'><font color="#660000"> Fantasy <br>
+            <input type="checkbox" id='two' name='two' value='two'> Action <br>
+            <input type="checkbox" id='three' name='three' value='three'> Poetry <br>
+            <input type="checkbox" id='four' name='four' value='four'> Drama <br>
+            <input type="checkbox" id='five' name='five' value='five'> Mystery <br>
+            <input type="checkbox" id='six' name='six' value='six'> Horror <br>
+            <input type="checkbox" id='seven' name='seven' value='seven'> Humour <br>
+            <input type="checkbox" id='eight' name='eight' value='eight'> Young Adult <br>
+            <input type="checkbox" id='nine' name='nine' value='nine'> Non-Fiction <br><br> </font>
+            <font color="#ff0080"><li><label for='fav'>Tell us what your favorite book is and why?</label></li><br></font>
+            <textarea rows="10" cols="60"></textarea><br><br>
+            <font color="#ff0080"><li><label for='rank'>Rank according to your preference.</label></labe.></li></font>
+            <br><span><font color="#660000">Reading from print media:</span>
+            <select name='mode' id='mode'>
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            </select>
+            <br><br><span>Reading from a tablet (Kindle, iPad...):</span>
+            <select name='mode' id='mode'>
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            </select>
+            <br><br><span>Read from a smartphone:</span>
+            <select name='mode' id='mode'>
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            </select>
+            <br><br></font>
+            <font color="#ff0080"><li><label for='dob'>Select your Date of Birth</label></li><br></font>
+            <input type="date" id='dob' name='dob' value='dob'><br><br>
+            <input type="submit" value='DONE'></font>
+        </ol>
+        </form>
+    </body>
+</html>
